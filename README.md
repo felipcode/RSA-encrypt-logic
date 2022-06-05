@@ -50,3 +50,14 @@ My rsa object has a _generate_keys()_ method to build the parameters and keys fo
 _***
 
 
+
+
+
+## Generate Large prime numbers
+
+### Logic
+> * Random number generation by calling nBitRandom(bitsize) 
+
+> * Basic division test by calling get_lowLevelPrime(prime_candidate)
+
+> * Rabin Miller Test by calling rabin_passed(prime_candidate)
